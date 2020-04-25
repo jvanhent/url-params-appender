@@ -1,4 +1,4 @@
-# build-url
+# url-params-appender
 
 [![Build Status](https://travis-ci.org/johnnyvh/url-params-appender.svg?branch=master)](https://travis-ci.org/johnnyvh/url-params-appender)
 
