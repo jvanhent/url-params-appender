@@ -1,0 +1,29 @@
+{
+  "name": "url-params-appender",
+  "version": "0.0.1",
+  "description": "A library that builds a URL, adding query parameters",
+  "author": "Johnny Vanhentenryk <johnny.vanhentenryk@ixor.be>",
+  "keywords": [
+    "url query params"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvanhent/url-params-appender.git"
+  },
+  "private": false,
+  "scripts": {
+    "test": "mocha",
+    "test-with-coverage": "nyc --reporter=text mocha"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "nyc": "^15.0.1"
+  }
+}
