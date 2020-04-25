@@ -5,6 +5,19 @@ node_js:
 cache: yarn
 
 install: yarn
-script:
-  - yarn lint
-  - yarn test
+
+jobs:
+  include:
+    - stage: build
+      script: 
+        - yarn lint
+        - yarn test
+    - stage: npm release
+      if: tag IS present
+      deploy:
+        provider: npm
+        email: "$NPM_EMAIL"
+        api_key: "$NPM_API_TOKEN"
+        cleanup: true
+        on:
+          tags: true
