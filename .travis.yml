@@ -12,6 +12,9 @@ jobs:
       script: 
         - yarn lint
         - yarn test
+    - stage: build
+      script: 
+        - yarn publish-coverage
     - stage: npm release
       if: tag IS present
       deploy:
