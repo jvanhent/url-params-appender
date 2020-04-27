@@ -1,6 +1,8 @@
 # url-params-appender
 
-[![Build Status](https://travis-ci.org/johnnyvh/url-params-appender.svg?branch=master)](https://travis-ci.org/johnnyvh/url-params-appender)
+[![Build Status](https://travis-ci.org/github/jvanhent/url-params-appender.svg?branch=master)](https://travis-ci.org/github/jvanhent/url-params-appender)
+[![Build Coverage](https://coveralls.io/github/jvanhent/url-params-appender)](https://coveralls.io/github/jvanhent/url-params-appender)
+
 
 A library that builds a URL, adding query parameters, taking priority params into account. 
 This is for very usefull when you want to rebuild the current URL, but add/replace the 'page' and 'pageSize'
