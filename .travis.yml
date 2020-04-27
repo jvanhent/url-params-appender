@@ -10,10 +10,9 @@ jobs:
   include:
     - stage: build
       script: 
-        - yarn lint
         - yarn test
-    - stage: build
-      script: 
+        - yarn lint
+        - yarn audit
         - yarn publish-coverage
     - stage: npm release
       if: tag IS present
