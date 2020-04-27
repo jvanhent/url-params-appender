@@ -1,6 +1,6 @@
 {
   "name": "url-params-appender",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A library that builds a URL, adding query parameters",
   "author": "Johnny Vanhentenryk <johnny.vanhentenryk@ixor.be>",
   "keywords": [
