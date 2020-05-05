@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/jvanhent/url-params-appender/badge.svg?branch=master)](https://coveralls.io/github/jvanhent/url-params-appender)
 [![dependencies Status](https://david-dm.org/jvanhent/url-params-appender/status.svg)](https://david-dm.org/jvanhent/url-params-appender)
 [![devDependencies Status](https://david-dm.org/jvanhent/url-params-appender/dev-status.svg)](https://david-dm.org/jvanhent/url-params-appender?type=dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/jvanhent/url-params-appender/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jvanhent/url-params-appender?targetFile=package.json)
 
 A library that builds a URL, adding query parameters, taking priority params into account. 
 This is for very usefull when you want to rebuild the current URL, but add/replace the 'page' and 'pageSize'
