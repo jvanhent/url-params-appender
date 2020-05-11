@@ -3,4 +3,4 @@
         "config:base",
         ":pinAllExceptPeerDependencies"
     ]
-}
+} 
