@@ -14,7 +14,7 @@ This is for very usefull when you want to rebuild the current URL, but add/repla
 To install with npm:
 
 ```
-npm install url-params-appender --save
+npm i url-params-appender --save
 ```
 
 ## Usage
