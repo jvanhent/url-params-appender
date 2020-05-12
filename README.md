@@ -42,3 +42,8 @@ buildUrl('https://go/see',
 ## License
 
 This is licensed under an MIT License. [See details](LICENSE)
+
+
+## Contribution
+
+![Contribution Process](./Contribution_process.jpg)
