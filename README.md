@@ -42,3 +42,11 @@ buildUrl('https://go/see',
 ## License
 
 This is licensed under an MIT License. [See details](LICENSE)
+
+
+## Contribution
+
+If you want to contribute to this project, you can fork the repository and create pull request to have it reviewed by the Sandbox team.
+Make sure to link the PR to an issue or improvement for tracking purposes.
+
+![Contribution Process](./Contribution_process.jpg)
