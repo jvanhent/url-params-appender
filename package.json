@@ -1,6 +1,6 @@
 {
   "name": "url-params-appender",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A library that builds a URL, adding query parameters",
   "author": "Johnny Vanhentenryk <johnny.vanhentenryk@ixor.be>",
   "keywords": [
@@ -19,7 +19,10 @@
     "test-with-coverage": "nyc mocha",
     "publish-coverage": "yarn test-with-coverage && nyc report --reporter=text-lcov | coveralls"
   },
-  "pre-commit": ["test", "lint"],
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
   "directories": {
     "test": "./test"
   },
@@ -30,8 +33,7 @@
     "nyc": "15.1.0",
     "pre-commit": "1.2.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "resolutions": {
     "lodash": "4.17.20"
   }
