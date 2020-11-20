@@ -39,6 +39,26 @@ buildUrl('https://go/see',
 // returns https://go/see?page=2&bbb=111&ccc=val&pageSize=5
 ```
 
+Now also support for query params in baseUrl:
+```
+var buildUrl = require('url-params-appender');
+
+buildUrl('https://go/see?name=john', 
+    {
+        page: 1, 
+        bbb: 111,
+        ccc: 'val'
+    }, 
+    {
+        page:2,
+        pageSize:5
+    }
+);
+
+// returns https://go/see?name=john&page=2&bbb=111&ccc=val&pageSize=5
+```
+
+
 ## License
 
 This is licensed under an MIT License. [See details](LICENSE)
