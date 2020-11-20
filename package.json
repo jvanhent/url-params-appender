@@ -28,5 +28,8 @@
     "mocha": "7.1.2",
     "nyc": "15.1.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "lodash": "4.17.20"
+  }
 }
