@@ -1,14 +1,15 @@
 # url-params-appender
 
-[![Build Status](https://travis-ci.org/jvanhent/url-params-appender.svg?branch=master)](https://travis-ci.org/github/jvanhent/url-params-appender)
-[![Coverage Status](https://coveralls.io/repos/github/jvanhent/url-params-appender/badge.svg?branch=master)](https://coveralls.io/github/jvanhent/url-params-appender)
-[![dependencies Status](https://david-dm.org/jvanhent/url-params-appender/status.svg)](https://david-dm.org/jvanhent/url-params-appender)
-[![devDependencies Status](https://david-dm.org/jvanhent/url-params-appender/dev-status.svg)](https://david-dm.org/jvanhent/url-params-appender?type=dev)
-[![Known Vulnerabilities](https://snyk.io/test/github/jvanhent/url-params-appender/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jvanhent/url-params-appender?targetFile=package.json)
-[![Last Commit](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)
+![Build Status](https://travis-ci.org/jvanhent/url-params-appender.svg?branch=master)
+![Coverage Status](https://coveralls.io/repos/github/jvanhent/url-params-appender/badge.svg?branch=master)
+![dependencies Status](https://img.shields.io/david/jvanhent/url-params-appender)
+![devDependencies Status](https://img.shields.io/david/dev/jvanhent/url-params-appender?label=devDependencies)
+![Known Vulnerabilities](https://snyk.io/test/github/jvanhent/url-params-appender/badge.svg?targetFile=package.json)
+![Last Commit](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)
 
-[![Npm version](https://img.shields.io/npm/v/url-params-appender?label=latest-version)](https://img.shields.io/npm/v/url-params-appender?label=latest-version)
-[![Npm downloads](https://img.shields.io/npm/dm/url-params-appender)](https://img.shields.io/npm/dm/url-params-appender)
+![Npm version](https://img.shields.io/npm/v/url-params-appender?label=latest-version)
+![Npm downloads](https://img.shields.io/npm/dm/url-params-appender)
+![Npm download size](https://img.shields.io/bundlephobia/min/url-params-appender)
 
 A library that builds a URL, adding query parameters, taking priority params into account. 
 This is for very usefull when you want to rebuild the current URL, but add/replace the 'page' and 'pageSize'
