@@ -5,6 +5,8 @@
 [![dependencies Status](https://david-dm.org/jvanhent/url-params-appender/status.svg)](https://david-dm.org/jvanhent/url-params-appender)
 [![devDependencies Status](https://david-dm.org/jvanhent/url-params-appender/dev-status.svg)](https://david-dm.org/jvanhent/url-params-appender?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/jvanhent/url-params-appender/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jvanhent/url-params-appender?targetFile=package.json)
+[![Last Commit](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)
+
 [![Npm version](https://img.shields.io/npm/v/url-params-appender?label=latest-version)](https://img.shields.io/npm/v/url-params-appender?label=latest-version)
 [![Npm downloads](https://img.shields.io/npm/dm/url-params-appender)](https://img.shields.io/npm/dm/url-params-appender)
 
