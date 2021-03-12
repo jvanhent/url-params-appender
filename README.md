@@ -10,6 +10,7 @@
 ![Npm downloads](https://img.shields.io/npm/dm/url-params-appender)
 ![Last Commit](https://img.shields.io/github/last-commit/jvanhent/url-params-appender)
 ![Npm download size](https://img.shields.io/bundlephobia/min/url-params-appender)
+![Contributors](https://img.shields.io/github/contributors/jvanhent/url-params-appender)
 
 A library that builds a URL, adding query parameters, taking priority params into account. 
 This is for very usefull when you want to rebuild the current URL, but add/replace the 'page' and 'pageSize'
