@@ -6,6 +6,9 @@
 [![devDependencies Status](https://david-dm.org/jvanhent/url-params-appender/dev-status.svg)](https://david-dm.org/jvanhent/url-params-appender?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/jvanhent/url-params-appender/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jvanhent/url-params-appender?targetFile=package.json)
 
+[![Npm version](https://img.shields.io/npm/v/url-params-appender?label=latest-version)](https://img.shields.io/npm/v/url-params-appender?label=latest-version)
+[![Npm downloads](https://img.shields.io/npm/dm/url-params-appender)](https://img.shields.io/npm/dm/url-params-appender)
+
 A library that builds a URL, adding query parameters, taking priority params into account. 
 This is for very usefull when you want to rebuild the current URL, but add/replace the 'page' and 'pageSize'
 
@@ -58,11 +61,12 @@ buildUrl('https://go/see?name=john',
 // returns https://go/see?name=john&page=2&bbb=111&ccc=val&pageSize=5
 ```
 
-
-## License
-
-This is licensed under an MIT License. [See details](LICENSE)
-
+## Release
+How to release:
+```
+npm version (major/minor/patch)
+git push origin ${tag}
+```
 
 ## Contribution
 
@@ -70,3 +74,7 @@ If you want to contribute to this project, you can fork the repository and creat
 Make sure to link the PR to an issue or improvement for tracking purposes.
 
 ![Contribution Process](./Contribution_process.jpg)
+
+## License
+
+This is licensed under an MIT License. [See details](LICENSE)
