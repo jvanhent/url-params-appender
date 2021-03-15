@@ -1,0 +1,6 @@
+test/
+.nyc_output/
+.eslintrc.json
+.renovaterc.json
+.travis.yml
+Contribution_process.jpg
