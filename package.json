@@ -33,8 +33,5 @@
     "nyc": "15.1.0",
     "pre-commit": "1.2.2"
   },
-  "dependencies": {},
-  "resolutions": {
-    "lodash": "4.17.21"
-  }
+  "dependencies": {}
 }
